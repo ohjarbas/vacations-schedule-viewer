@@ -1,0 +1,28 @@
+.spreadsheet {
+  cursor: default;
+}
+
+.spreadsheet :global(.Spreadsheet__cell),
+.spreadsheet :global(.Spreadsheet__header) {
+  min-width: 1em;
+}
+
+.holiday {
+  background-color: #2a87d3;
+}
+
+.approvedVacation {
+  background-color: #2ad330;
+}
+
+.requestedVacation {
+  background-color: #d3a32a;
+}
+
+.weekend {
+  background-color: #d1d1d1;
+}
+
+.empty {
+  background-color: #fff;
+}
