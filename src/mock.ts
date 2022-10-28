@@ -9,8 +9,64 @@ export const data: IData = {
   ],
   users: [
     {
-      name: "José Moreira",
-      handler: "@cusspvz",
+      name: "James Brown",
+      handler: "@jamesbrown",
+      vacations: {
+        approved: [
+          new Date("2022/01/12"),
+          new Date("2022/01/13"),
+          new Date("2022/01/14"),
+          new Date("2022/03/15"),
+          new Date("2022/03/16"),
+        ],
+        requested: [],
+      }
+    },
+    {
+      name: "John Doe",
+      handler: "@johndoe",
+      vacations: {
+        approved: [
+          new Date("2022/05/12"),
+          new Date("2022/05/13"),
+          new Date("2022/05/14"),
+          new Date("2022/07/01"),
+          new Date("2022/07/02"),
+        ],
+        requested: [],
+      }
+    },
+    {
+      name: "Steven Spielberg",
+      handler: "@sspielberg",
+      vacations: {
+        approved: [
+          new Date("2022/09/02"),
+          new Date("2022/09/03"),
+          new Date("2022/09/04"),
+          new Date("2022/09/05"),
+          new Date("2022/09/06"),
+        ],
+        requested: [],
+      }
+    },
+    {
+      name: "Willson Matthew",
+      handler: "@wmatthew",
+      vacations: {
+        approved: [
+          new Date("2022/04/02"),
+          new Date("2022/04/03"),
+          new Date("2022/04/04"),
+          new Date("2022/04/05"),
+          new Date("2022/04/06"),
+        ],
+        requested: [],
+      }
+    },
+    {
+      name: "John Cena",
+      handler: "@jcena",
       vacations: {
         approved: [
           new Date("2022/12/12"),
@@ -23,64 +79,8 @@ export const data: IData = {
       }
     },
     {
-      name: "Diogo Rego",
-      handler: "@drego",
-      vacations: {
-        approved: [
-          new Date("2022/12/12"),
-          new Date("2022/12/13"),
-          new Date("2022/12/14"),
-          new Date("2022/12/15"),
-          new Date("2022/12/16"),
-        ],
-        requested: [],
-      }
-    },
-    {
-      name: "Diana Rita",
-      handler: "@dianarita",
-      vacations: {
-        approved: [
-          new Date("2022/12/12"),
-          new Date("2022/12/13"),
-          new Date("2022/12/14"),
-          new Date("2022/12/15"),
-          new Date("2022/12/16"),
-        ],
-        requested: [],
-      }
-    },
-    {
-      name: "Nelson Novais",
-      handler: "@nnovais",
-      vacations: {
-        approved: [
-          new Date("2022/12/12"),
-          new Date("2022/12/13"),
-          new Date("2022/12/14"),
-          new Date("2022/12/15"),
-          new Date("2022/12/16"),
-        ],
-        requested: [],
-      }
-    },
-    {
-      name: "Francisco Sales",
-      handler: "@fsales",
-      vacations: {
-        approved: [
-          new Date("2022/12/12"),
-          new Date("2022/12/13"),
-          new Date("2022/12/14"),
-          new Date("2022/12/15"),
-          new Date("2022/12/16"),
-        ],
-        requested: [],
-      }
-    },
-    {
-      name: "André Makrilou",
-      handler: "@makrilou",
+      name: "James Cole",
+      handler: "@jcole",
       vacations: {
         approved: [
           new Date("2022/07/12"),
